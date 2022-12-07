@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ ! -f $ZSH ]; then
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+fi
+
+systemctl enable --user ssh-agent
+chsh -s /bin/zsh
