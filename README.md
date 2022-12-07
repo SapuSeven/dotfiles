@@ -3,7 +3,7 @@
 ## Required packages
 
 - `firefox-developer-edition`
-- `rxvt-unicode`
+- `papirus-icon-theme`
 
 AUR:
 
