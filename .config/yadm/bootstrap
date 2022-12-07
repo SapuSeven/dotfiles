@@ -2,6 +2,11 @@
 
 NEW_SHELL=/bin/zsh
 ZSH_CUSTOM=.oh-my-zsh/custom
+GTK_THEME=Flat-Remix-GTK-Violet-Dark
+ICON_THEME=Flat-Remix-Violet-Dark
+CURSOR_THEME=Breeze
+CURSOR_SIZE=24
+
 
 if [ ! -d $ZSH ]; then
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -23,3 +28,7 @@ git -C $ZSH_CUSTOM/plugins/zsh-syntax-highlighting pull || git clone https://git
 # zsh-z
 #git -C $ZSH_CUSTOM/plugins/zsh-z pull || git clone https://github.com/agkozak/zsh-z $ZSH_CUSTOM/plugins/zsh-z
 
+gsettings set org.gnome.desktop.interface gtk-theme "$GTK_THEME"
+gsettings set org.gnome.desktop.interface icon-theme "$ICON_THEME"
+gsettings set org.gnome.desktop.interface cursor-theme "$CURSOR_THEME"
+gsettings set org.gnome.desktop.interface cursor-size "$CURSOR_SIZE"

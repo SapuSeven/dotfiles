@@ -11,7 +11,7 @@ set $mod Mod4
 floating_modifier $mod
 
 set $cursor_theme Breeze
-set $cursor_size 48
+set $cursor_size 24
 
 bar {
     swaybar_command waybar

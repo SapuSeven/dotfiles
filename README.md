@@ -3,7 +3,6 @@
 ## Required packages
 
 - `firefox-developer-edition`
-- `papirus-icon-theme`
 
 AUR:
 

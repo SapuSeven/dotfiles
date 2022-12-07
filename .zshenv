@@ -9,6 +9,7 @@ export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 export MOZ_ENABLE_WAYLAND=1
 export XDG_CURRENT_DESKTOP=sway
 export XDG_SESSION_TYPE=wayland
+export GDK_BACKEND=wayland
 export WLR_NO_HARDWARE_CURSORS=1
 export WLR_RENDERER_ALLOW_SOFTWARE=1
 
