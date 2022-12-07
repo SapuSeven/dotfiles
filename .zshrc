@@ -75,7 +75,7 @@ plugins=(
   #cp
   #k
   colored-man-pages
-  zsh-z
+  #zsh-z
   zsh-autosuggestions
   zsh-syntax-highlighting
 )
