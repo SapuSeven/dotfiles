@@ -19,6 +19,6 @@ export WLR_RENDERER_ALLOW_SOFTWARE=1
 #export QT_SCALE_FACTOR=2
 export QT_QPA_PLATFORM=xcb
 export _JAVA_AWT_WM_NONREPARENTING=1
+export GTK_THEME=Flat-Remix-GTK-Violet-Dark
 export XCURSOR_THEME=Breeze
-export XCURSOR_SIZE=48
-
+export XCURSOR_SIZE=24

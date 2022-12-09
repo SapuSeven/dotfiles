@@ -11,4 +11,5 @@ AUR:
 
 ## Recommended tools
 
-- `keeweb`: Password Manager
+- `keeweb-desktop-bin` (AUR): Password Manager
+- `udisks2`: Improved disk mounting
