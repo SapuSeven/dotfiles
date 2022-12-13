@@ -8,6 +8,7 @@ AUR:
 
 - `nerd-fonts-jetbrains-mono`
 - `xcursor-breeze`
+- `grimshot`
 
 ## Recommended tools
 

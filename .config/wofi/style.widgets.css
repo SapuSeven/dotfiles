@@ -1,15 +1,19 @@
 @define-color highlight #962ac3;
-@define-color base1 #404552;
-@define-color base2 #40455;
-@define-color base3 #4b5160;
+@define-color base1 #2c2e3a;
+@define-color base2 #23252e;
+@define-color base3 #373a49;
 
 * {
     font-family: JetbrainsMono;
 }
 
 #window {
-    border: 1px solid @highlight;
-    margin: 0px 5px 0px 5px;
+    border: 2px solid @highlight;
+    margin: 0px;
+}
+
+#input {
+    margin-top: -1000px;
 }
 
 #inner-box {
@@ -17,10 +21,9 @@
 }
 
 #outer-box {
-    margin: 5px;
-    padding: 10px;
+    margin: 2px;
+    padding: 0px;
     background-color: @base2;
-    margin-top: -22px;
 }
 
 #text {

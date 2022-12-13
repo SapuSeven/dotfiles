@@ -1,10 +1,10 @@
 @define-color highlight #962ac3;
-@define-color base1 #404552;
-@define-color base2 #40455;
-@define-color base3 #4b5160;
+@define-color base1 #2c2e3a;
+@define-color base2 #23252e;
+@define-color base3 #373a49;
 
-*{
-    font-family: UbuntuMono;
+* {
+    font-family: sans-serif;
 }
 
 window {
@@ -20,12 +20,14 @@ window {
 }
 
 #inner-box {
+    margin: 0;
+    padding: 0;
     background-color: @base3;
 }
 
 #outer-box {
     margin: 5px;
-    padding:15px;
+    padding: 15px;
     background-color: @base2;
 }
 
